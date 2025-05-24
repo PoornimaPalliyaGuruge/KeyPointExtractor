@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load("gesture_model.pkl")
+model = joblib.load("gesture_model_datao.pkl")
 
 # All 4 classes
 classes = ['anomalies', 'open_palms', 'self_referencing', 'steepled']
