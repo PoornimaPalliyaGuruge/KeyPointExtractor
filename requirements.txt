@@ -1,5 +1,6 @@
-Flask
 numpy
-joblib
-scikit-learn
-cv2
+pandas
+scikit-learn==1.3.2
+opencv-python 
+mediapipe
+flask
