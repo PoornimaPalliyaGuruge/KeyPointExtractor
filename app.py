@@ -52,7 +52,7 @@ import os
 app = Flask(__name__)
 
 # Load model
-model = joblib.load("gesture_model.pkl")  # Replace with your path
+model = joblib.load("gesture_model_datao.pkl")  # Replace with your path
 classes = ['anomalies', 'open_palms', 'self_referencing', 'steepled']
 
 # Mediapipe setup
