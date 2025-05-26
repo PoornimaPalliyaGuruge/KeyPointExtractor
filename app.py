@@ -5,8 +5,10 @@ import requests
 import tempfile
 import cv2
 import mediapipe as mp
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the model
 model = joblib.load("gesture_model_datao.pkl")
