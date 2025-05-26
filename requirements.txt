@@ -4,6 +4,7 @@
 # scikit-learn
 
 flask
+flask-cors
 joblib
 numpy
 opencv-python
