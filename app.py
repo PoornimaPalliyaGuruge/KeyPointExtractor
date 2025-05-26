@@ -94,6 +94,7 @@ def predict_batch():
 def predict_video():
     data = request.get_json()
     video_url = data.get('video_url')
+    user_email = data.get('user_email') 
 
     if not video_url:
         return jsonify({"error": "Missing video URL"}), 400
