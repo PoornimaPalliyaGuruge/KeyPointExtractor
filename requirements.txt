@@ -1,4 +1,11 @@
-Flask
-numpy
+# Flask
+# numpy
+# joblib
+# scikit-learn
+
+flask
 joblib
-scikit-learn
+numpy
+opencv-python
+mediapipe
+requests
